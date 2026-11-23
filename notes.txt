@@ -1,0 +1,20 @@
+source : https://chatgpt.com/c/6adf8c29-9f54-83e8-8c6a-3234d5030a25
+
+
+Technology	 Purpose
+Node.js	     Runs JavaScript on the server
+Express.js	 Creates APIs and handles HTTP requests
+MySQL	     Stores student records in a database
+dotenv	     Stores configuration such as database credentials
+Postman	     Tests APIs without needing a frontend
+
+
+Postman / React frontend → Express API → MySQL2 → MySQL database
+
+For example, when you add a student:
+1. The frontend sends student details to the backend.
+2. Express receives the HTTP request.
+3. The backend validates the data.
+4. MySQL2 executes an SQL INSERT query.
+5. MySQL stores the student record.
+6. The backend sends a response to the frontend.
